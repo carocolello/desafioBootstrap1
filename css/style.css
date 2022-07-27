@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3d9c7;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* INDEX */
+
+.navLogo img {
+    width: 100px;
+}
+
+.navbarIndex {
+    background-color: #d0ac8d;
+    box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
+}
+
+.sectionUno {
+    background-image: url("https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 120px);
+}
+
+.displayUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botonUno {
+    background-color: #d0ac8d;
+    color: #fff;
+}
+
+.sectionDos {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.sectionDos h3 {
+    margin-bottom: 10px;
+}
+
+.sectionTres {
+    display: flex;
+    flex-direction: row;
+    background-color: #847c5d;
+    color: #fff;
+}
+
+.sectionTres img {
+    width: 50%;
+}
+
+.sectionTresTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.productosDestacados {
+    margin: 30px auto;
+}
+
+.productosDestacados h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.divFooter {
+    background-color: #a86d4d;
+    color: #fff;
+}
+
+.footerEsp ul li a {
+    color: #fff;
+}
+
+.footerEsp ul li a:hover {
+    color: rgb(220, 219, 219);
+}
+
+/* Nosotros */
+
+.nosotrosMain {
+    margin: 30px auto;
+}
+
+.nosotrosValores {
+    margin: 30px auto;
+}
+
+.cardsValores {
+    margin-bottom: 40px;
+}
