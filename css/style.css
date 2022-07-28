@@ -105,3 +105,56 @@ body {
 .cardsValores {
     margin-bottom: 40px;
 }
+
+/* Cursos */
+
+.mainHeader {
+    margin: 30px auto;
+}
+
+.cursosMain {
+    margin: 30px auto 50px auto;
+}
+
+.cursosMain a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cursosUno {
+    background-image: url("https://images.unsplash.com/photo-1556760544-74068565f05c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.cursosDos {
+    background-image: url("https://images.unsplash.com/photo-1552046122-03184de85e08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Locales */
+
+.localesHeader {
+    margin: 30px auto;
+}
+
+/* Contacto */
+
+.formularioContact {
+    margin: 30px auto;
+}
+
+.botonPequeno {
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
