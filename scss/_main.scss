@@ -1,0 +1,36 @@
+.sectionDos {
+    margin: 30px auto;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 10px;
+    }
+}
+
+.sectionTres {
+    display: flex;
+    flex-direction: row;
+    background-color: $colorTres;
+    color: $colorBlanco;
+
+    img {
+        width: 50%;
+    }
+}
+
+.sectionTresTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.productosDestacados {
+    margin: 40px;
+
+    h3 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

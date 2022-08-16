@@ -1,0 +1,23 @@
+.nosotrosMain,
+.nosotrosValores {
+    margin: 30px auto;
+}
+
+.cardsValores {
+    margin-bottom: 40px;
+}
+
+.imgOverlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.cardZoom {
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: rgba(33, 35, 38, 0.097) 0px 10px 10px;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

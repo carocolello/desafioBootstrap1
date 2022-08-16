@@ -1,0 +1,12 @@
+.divFooter {
+    background-color: $colorCuatro;
+    color: $colorBlanco;
+}
+
+.footerEsp ul li a {
+    color: $colorBlanco;
+
+    &:hover {
+        color: rgb(220, 219, 219);
+    }
+}
